@@ -1,5 +1,4 @@
 """
-Code forked from Tucker Balch ML4T course
 Template for implementing QLearner  
 """
 
@@ -46,3 +45,4 @@ class QLearner(object):
         action = rand.randint(0, self.num_actions-1)
         if self.verbose: print("s =", s_prime,"a =",action,"r =",r)
         return action
+

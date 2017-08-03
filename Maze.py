@@ -1,6 +1,5 @@
 """
-Code forked from Tucker Balch ML4T course
-Test a Q Learner in a navigation problem.
+Template for implementing Maze
 """
 
 import numpy as np

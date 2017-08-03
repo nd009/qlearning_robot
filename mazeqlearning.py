@@ -1,6 +1,5 @@
 """
-Code forked from Tucker Balch ML4T course
-Test a Q Learner in a navigation problem.
+Train a Q Learner in a navigation problem.
 """
 
 import numpy as np
@@ -24,16 +23,16 @@ def train(maze, learner, epochs=500, timeout = 100000, verbose = False):
     return rewards
 
 
-# run the code to test a learner
-def maze_qlearning():
-    rand.seed(5)
-    filename = 'testworlds/world01.csv'
-
+# run the code to train a learner on a maze
+def maze_qlearning(filename):
     #TODO
     #initialize maze object
     #initialize learner object
     #execute train(maze, learner)
-    #print out median of all rewards
+    #return median of all rewards
+
+    return 0
 
 if __name__=="__main__":
-    maze_qlearning()
+    rand.seed(5)
+    maze_qlearning('testworlds/world01.csv')
