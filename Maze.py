@@ -24,6 +24,16 @@ class Maze(object):
         self.random_walk_rate = random_walk_rate
         self.verbose = verbose
 
+    #return the start position of the robot
+    def get_start_pos(self):
+        #TODO
+        return (0,0)
+
+    #return the goal position of the robot
+    def get_goal_pos(self):
+        #TODO
+        return (0,0)
+
     # move the robot and report new position and reward
     # Note that robot cannot step into obstacles nor step out of the map
     # Note that robot may ignore the given action and choose a random action
